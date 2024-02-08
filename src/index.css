@@ -1,3 +1,26 @@
 * {
-  color: red;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.converter {
+  background-color: #242424;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+}
+
+input, select {
+  padding: 10px;
+  background: ghostwhite;
+  font-size: 20px;
+}
+
+p {
+  font-size: 20px;
+  color: ghostwhite
 }
